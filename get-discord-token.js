@@ -108,7 +108,7 @@
 
    var userToken = localStorage.getItem('token');
 
-   var warn = "Allowing anyone to see your token can result in them gaining access to your account. This can lead to impersonation, server bans, account closure, etc.\n\n\n\n If you do not understand this, press 'Cancel'."
+   var warn = "continue to get token."
 
    // show warning, if accepted show token
    document.addEventListener('readystatechange', event => {
